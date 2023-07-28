@@ -140,12 +140,10 @@ const Home = () => {
           <p> Giá dự kiến đạt được: 10$ (230.000đ/cp) </p>
 
           <div className="example">
-            <p>Ví dụ bạn đầu tư vào đây 100 triệu đồng</p>
+            <p>Ví dụ bạn đầu tư vào đây 12 triệu đồng</p>
+            <p>Số cổ phần bạn sẽ nhận được là: 12.000.000 / 8.679 = 1382 cp</p>
             <p>
-              Số cổ phần bạn sẽ nhận được là: 100.000.000 / 8.679 = 11522 cp
-            </p>
-            <p>
-              Khi IPO thành công bạn sẽ được: 11522 x 230.000đ = 2.6 tỷ đồng
+              Khi IPO thành công bạn sẽ được: 1382 x 230.000đ = 318 triệu đồng
             </p>
             <p>
               ( Nếu bạn không bán cp đi, bạn giữ lại sẽ được nhận cổ tức khi
