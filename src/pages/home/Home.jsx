@@ -284,6 +284,9 @@ const Home = () => {
             className="video"
           />
         </div>
+        <b style={{ color: "red" }}>
+          Chú ý: Chỉ còn 3-6 tháng vì đã ký kết với Quỹ đầu tư lớn tại Singapore
+        </b>
       </div>
     </div>
   );
