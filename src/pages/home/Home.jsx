@@ -106,6 +106,18 @@ const Home = () => {
             Nhà đầu tư, Ngân hàng.
           </p>
           <p>Thị trường: Việt Nam và Toàn cầu.</p>
+          <div style={{ marginTop: "1.3rem" }}>
+            <h4>
+              10 phút nắm trọn thông tin về Dự án HST Công nghệ Bất động sản
+              Meey Land
+            </h4>
+            <iframe
+              src="https://www.youtube.com/embed/5it6CPCpHtA"
+              allowFullScreen
+              width={"100%"}
+              height={"300rem"}
+            />
+          </div>
           <h3 style={{ marginTop: "1.3rem" }}>
             TRỜ THÀNH CỔ ĐÔNG CÙNG MEEY LAND
           </h3>
