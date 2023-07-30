@@ -111,11 +111,11 @@ const Home = () => {
               10 phút nắm trọn thông tin về Dự án HST Công nghệ Bất động sản
               Meey Land
             </h4>
+
             <iframe
               src="https://www.youtube.com/embed/5it6CPCpHtA"
               allowFullScreen
-              width={"100%"}
-              height={"300rem"}
+              className="video"
             />
           </div>
           <h3 style={{ marginTop: "1.3rem" }}>
@@ -270,19 +270,18 @@ const Home = () => {
           <iframe
             src="https://www.youtube.com/embed/RecW4Qa_pbI"
             allowFullScreen
-            width={"100%"}
-            height={"300rem"}
+            className="video"
           />
         </div>
         <div style={{ marginTop: "1.3rem" }}>
           <h5>
             CEO Hoàng Mai Chung Chia Sẻ Về Số Hóa Bất Động Sản Tại Việt Nam
           </h5>
+
           <iframe
             src="https://www.youtube.com/embed/ZtB32VsuAO8"
             allowFullScreen
-            width={"100%"}
-            height={"300rem"}
+            className="video"
           />
         </div>
       </div>

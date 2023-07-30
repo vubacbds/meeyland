@@ -102,4 +102,13 @@
       }
     }
   }
+  .video {
+    width: 100%;
+    height: 30rem;
+
+    @media screen and (min-width: 760px) {
+      width: 60%;
+      height: 44rem;
+    }
+  }
 }
