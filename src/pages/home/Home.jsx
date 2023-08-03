@@ -106,18 +106,7 @@ const Home = () => {
             Nhà đầu tư, Ngân hàng.
           </p>
           <p>Thị trường: Việt Nam và Toàn cầu.</p>
-          <div style={{ marginTop: "1.3rem" }}>
-            <h4>
-              10 phút nắm trọn thông tin về Dự án HST Công nghệ Bất động sản
-              Meey Land
-            </h4>
 
-            <iframe
-              src="https://www.youtube.com/embed/5it6CPCpHtA"
-              allowFullScreen
-              className="video"
-            />
-          </div>
           <h3 style={{ marginTop: "1.3rem" }}>
             TRỜ THÀNH CỔ ĐÔNG CÙNG MEEY LAND
           </h3>
@@ -196,7 +185,16 @@ const Home = () => {
                 https://id.hoangmaichung.com/register.html?ref=meeylander
               </a>
             </p>
-            <p>
+            <div style={{ marginTop: "1.3rem" }}>
+              <h4>Giàu có là sự lựa chọn, hãy xem hết video này 👇👇👇</h4>
+
+              <iframe
+                src="https://www.youtube.com/embed/9-MB8EM0VQI"
+                allowFullScreen
+                className="video"
+              />
+            </div>
+            {/* <p>
               Tìm hiểu chi tiết hơn:
               <a
                 style={{ color: "blue" }}
@@ -204,7 +202,7 @@ const Home = () => {
               >
                 Tại đây
               </a>
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
@@ -283,6 +281,18 @@ const Home = () => {
             allowFullScreen
             className="video"
           />
+        </div>
+        <div className="img_box">
+          <img
+            className="quy"
+            src={process.env.PUBLIC_URL + "/images/quy.jpg"}
+            alt="meey-land"
+          />
+          <div className="click">
+            <a href="https://diendandoanhnghiep.vn/lo-dien-chan-dung-quy-dau-tu-ngoai-chuan-bi-rot-von-vao-meey-land-248450.html">
+              Đi tới bài báo
+            </a>
+          </div>
         </div>
         <b style={{ color: "red" }}>
           Chú ý: Chỉ còn 3-6 tháng vì đã ký kết với Quỹ đầu tư lớn tại Singapore
