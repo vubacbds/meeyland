@@ -84,7 +84,7 @@ const Home = () => {
         <h3>HỆ SINH THÁI CÔNG NGHỆ BẤT ĐỘNG SẢN MEEY LAND</h3>
         <img
           className="img2"
-          src={process.env.PUBLIC_URL + "/images/img2.png"}
+          src={process.env.PUBLIC_URL + "/images/img2.jpg"}
         />
         <div style={{ textAlign: "left", marginTop: "0.4rem" }}>
           <p>Là mô hình kết hợp CÔNG NGHỆ – BẤT ĐỘNG SẢN – TÀI CHÍNH</p>
