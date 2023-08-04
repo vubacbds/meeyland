@@ -182,7 +182,7 @@ const items = [
         Có 2 mốc thời gian bạn cần chú ý:
         <ul style={{ marginLeft: "2rem" }}>
           <li>
-            Thời gian gọi vốn từ cộng đồng còn lại là từ 3 đến 6 thàng vì chuẩn
+            Thời gian gọi vốn từ cộng đồng còn lại là từ 3 đến 6 tháng vì chuẩn
             bị nhận vốn từ Quỹ đầu tư
           </li>
           <li>
@@ -195,7 +195,7 @@ const items = [
                 margin: "1.2rem",
               }}
             >
-              (Khi đó bạn có thể bán đi MEY (cổ phiêu) hoặc giữ lại nhận cổ tức
+              (Khi đó bạn có thể bán đi MEY (cổ phiếu) hoặc giữ lại nhận cổ tức
               hàng năm)
             </p>
           </li>
