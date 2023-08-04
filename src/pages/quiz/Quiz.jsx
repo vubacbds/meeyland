@@ -18,6 +18,51 @@ const items = [
   },
   {
     key: "2",
+    label: "Các sản phẩm của Meey Land ?",
+    children: (
+      <div>
+        Meey Land đang phát Hệ sinh thái công nghệ gồm 26 sản phẩm riêng biệt bổ
+        trợ nhau để giải quyết hầu hết các vấn đề trong Bất động sản. Một số sản
+        phẩm đã ra mắt như:
+        <ul style={{ marginLeft: "2rem" }}>
+          <li>
+            Cổng thông tin BĐS 4.0:
+            <a href="https://meeyland.com"> meeyland.com</a>
+          </li>
+          <li>
+            Nền tảng tra cứu quy hoạch:
+            <a href="https://meeymap.com"> meeymap.com</a>
+          </li>
+          <li>
+            Công cụ quản lý cho nhà môi giới:
+            <a href="https://meeycrm.com"> meeycrm.com</a>
+          </li>
+          <li>
+            Xem nhà 3D:
+            <a href="https://meey3d.com"> meey3d.com</a>
+          </li>
+          <li>
+            Định giá BĐS:
+            <a href="https://meeyvalue.com"> meeyvalue.com</a>
+          </li>
+          <li>
+            Chạy quảng cáo chuyên biệt BĐS:
+            <a href="https://meeyads.com"> meeyads.com</a>
+          </li>
+          <li>
+            Nền tảng tạo LandingPage BĐS:
+            <a href="https://meeypage.com"> meeypage.com</a>
+          </li>
+          <li>
+            Nền tảng MXH tin tức BĐS:
+            <a href="https://meeyshare.com"> meeyshare.com</a>
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    key: "3",
     label: "MEY là gì ?",
     children: (
       <div>
@@ -27,7 +72,7 @@ const items = [
     ),
   },
   {
-    key: "3",
+    key: "4",
     label: "Đầu tư là như thế nào ?",
     children: (
       <div>
@@ -38,7 +83,7 @@ const items = [
     ),
   },
   {
-    key: "4",
+    key: "5",
     label: "Giá MEY hiện tại và số tiền tôi cần phải đầu tư ?",
     children: (
       <div>
@@ -48,7 +93,7 @@ const items = [
     ),
   },
   {
-    key: "5",
+    key: "6",
     label: "Tôi được hưởng lợi gì ?",
     children: (
       <div>
@@ -69,7 +114,7 @@ const items = [
     ),
   },
   {
-    key: "6",
+    key: "7",
     label: "Tại sao đây là cơ hội lớn ?",
     children: (
       <div>
@@ -101,7 +146,7 @@ const items = [
     ),
   },
   {
-    key: "7",
+    key: "8",
     label: "Làm cách nào tôi có thể đầu tư ?",
     children: (
       <div>
@@ -120,7 +165,7 @@ const items = [
     ),
   },
   {
-    key: "8",
+    key: "9",
     label: "Có an toàn không ?",
     children: (
       <div>
@@ -130,7 +175,7 @@ const items = [
     ),
   },
   {
-    key: "9",
+    key: "10",
     label: "Thời gian trong bao lâu ?",
     children: (
       <div>
@@ -166,7 +211,7 @@ const Quiz = () => {
   return (
     <Collapse
       items={items}
-      defaultActiveKey={["1", "2", "3", "4", "5", "6", "7", "8", "9"]}
+      defaultActiveKey={["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]}
       onChange={onChange}
     />
   );

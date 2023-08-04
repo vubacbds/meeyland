@@ -67,6 +67,14 @@ const Home = () => {
           className="img2"
           src={process.env.PUBLIC_URL + "/images/img2.jpg"}
         />
+
+        <div style={{ marginTop: "0.6rem" }}>
+          <iframe
+            src="https://www.youtube.com/embed/7gWuSxbVc04"
+            allowFullScreen
+            className="video"
+          />
+        </div>
         <p>
           Là mô hình kết hợp Công nghệ - Bất động sản - Tài chính tiên phong
           trên thế giới.
