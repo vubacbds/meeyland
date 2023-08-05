@@ -3,7 +3,7 @@ import "./style.scss";
 import Slider from "react-slick";
 import Doitac from "../../data/doitac";
 import Giaithuong from "../../data/giaithuong";
-
+import { QuestionCircleOutlined } from "@ant-design/icons";
 import Quiz from "../quiz";
 
 const Home = () => {
@@ -79,8 +79,19 @@ const Home = () => {
           Là mô hình kết hợp Công nghệ - Bất động sản - Tài chính tiên phong
           trên thế giới.
         </p>
+        <p
+          style={{
+            fontSize: "1.3rem",
+            textAlign: "left",
+            fontStyle: "italic",
+            marginBottom: "1.8rem",
+          }}
+        >
+          <QuestionCircleOutlined /> Bạn có biết: Bí mật của các tỷ phú trên thế
+          giới là sở hữu cổ phần của các doanh nghiệp.
+        </p>
+        <p className="title">Cơ hội hợp tác đầu tư </p>
         <div style={{ textAlign: "left", marginTop: "0.4rem" }}>
-          <p className="title">Cơ hội hợp tác đầu tư</p>
           <Quiz />
         </div>
       </div>

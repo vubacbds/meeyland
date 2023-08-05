@@ -76,9 +76,9 @@ const items = [
     label: "Đầu tư là như thế nào ?",
     children: (
       <div>
-        Nhà sáng lập Meey Land - ông Hoàng Mai Chung kêu gọi cộng đồng chung tay
-        phát triển doanh nghiệp. Khi đầu tư bạn được sở hữu MEY - cổ phần nội bộ
-        với giá ưu đãi
+        Nhà sáng lập Meey Land - doanh nhân Hoàng Mai Chung kêu gọi cộng đồng
+        chung tay phát triển doanh nghiệp. Khi đầu tư bạn được sở hữu MEY - cổ
+        phần nội bộ với giá ưu đãi
       </div>
     ),
   },
@@ -200,6 +200,70 @@ const items = [
             </p>
           </li>
         </ul>
+      </div>
+    ),
+  },
+  {
+    key: "11",
+    label: "Có chắc lên sàn IPO được không ?",
+    children: (
+      <div>
+        Meey Land định hướng ngay từ khi ra đời là tiến tới IPO nên đã vạch rõ
+        đường đi tới đó. Để thúc đẩy quá trình đó doanh nghiệp đã hợp tác với
+        các đơn vị tư vấn lớn như:
+        <ul style={{ marginLeft: "2rem" }}>
+          <li> PwC - 1 trong 4 công ty kiểm toán hàng đầu thế giới</li>
+          <li>BSI - viện tiêu chuẩn Anh</li>
+          <li>
+            Richard Moore Associates - tư vấn định vị thương hiệu cho Meey Land
+          </li>
+        </ul>
+        Ngoài ra, sắp tới sẽ có sự đồng hành từ Quỹ lớn từ Singapore vời dày dặn
+        kinh nghiệm và mối quan hệ. Việc IPO chỉ còn sớm muộn.
+      </div>
+    ),
+  },
+  {
+    key: "12",
+    label: "Dự án có đáng tin không ?",
+    children: (
+      <div>
+        Doanh nghiệp đi đúng đường lối chính sách của Đảng, nhà nước đề ra là
+        chuyển đổi số, chính phủ số, kinh tế số...
+        <br /> <br />
+        Bên trong nội bộ doanh nghiệp có ban pháp chế đảm bảo doanh nghiệp vận
+        hành đúng pháp luật, ngoài ra còn có các văn phòng luật sư hợp tác tư
+        vấn. <br /> <br />
+        Doanh nghiệp được sự ủng hộ lớn từ nhà nước bằng chứng qua các hợp tác
+        với Viện Quy hoạch đô thị và nông thôn quốc gia, Gmobile thuộc Bộ CA.
+        <br /> <br />
+        Đặc biệt, sự kiện nhà sáng lập - Doanh nhân Hoàng Mai Chung trúng cử Uỷ
+        viên ban chấp hành hiệp hội Bất động sản Việt Nam nhiệm kỳ V và thường
+        xuyên được cơ quan báo đài đăng tin.
+      </div>
+    ),
+  },
+  {
+    key: "13",
+    label: "Có ai đầu tư chưa ?",
+    children: <div>Tính đến hiện tai đã có hơn 45.000 nhà đầu tư</div>,
+  },
+  {
+    key: "14",
+    label: "Có tổng bao nhiêu MEY ?",
+    children: (
+      <div>
+        Tổng 2,3 tỷ MEY phát hành cho gọi vốn cộng đồng 25% là 575 triệu MEY
+      </div>
+    ),
+  },
+  {
+    key: "15",
+    label: "Để có 1 tỷ trong tương lai tôi cần có bao nhiêu MEY ?",
+    children: (
+      <div>
+        Nếu giá MEY đạt như dự kiến là 230.000đ trong tương lai thì bạn cần có
+        tối thiểu 4348 MEY
       </div>
     ),
   },
