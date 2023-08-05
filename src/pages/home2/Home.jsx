@@ -3,7 +3,7 @@ import "./style.scss";
 import Slider from "react-slick";
 import Doitac from "../../data/doitac";
 import Giaithuong from "../../data/giaithuong";
-import { QuestionCircleOutlined } from "@ant-design/icons";
+import { DollarOutlined, QuestionCircleOutlined } from "@ant-design/icons";
 import Quiz from "../quiz";
 
 const Home = () => {
@@ -84,7 +84,7 @@ const Home = () => {
             fontSize: "1.3rem",
             textAlign: "left",
             fontStyle: "italic",
-            marginBottom: "1.8rem",
+            // marginBottom: "1.8rem",
           }}
         >
           <QuestionCircleOutlined /> Bạn có biết: Bí mật của các tỷ phú trên thế
@@ -193,9 +193,16 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <b style={{ color: "red" }}>
-          Chú ý: Chỉ còn 3-6 tháng vì đã ký kết với Quỹ đầu tư lớn tại Singapore
-        </b>
+        <p
+          style={{
+            fontSize: "1.3rem",
+            textAlign: "left",
+            fontStyle: "italic",
+            // marginBottom: "1.8rem",
+          }}
+        >
+          <DollarOutlined /> NỔ LỰC cả đời KHÔNG BẰNG một lần LỰA CHỌN đúng.
+        </p>
       </div>
     </div>
   );
