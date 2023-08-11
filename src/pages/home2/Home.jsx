@@ -180,18 +180,14 @@ const Home = () => {
             className="video"
           />
         </div>
-        <div className="cacmuc">Sắp nhận vốn từ Quỹ đầu tư ngoại</div>
-        <div className="img_box">
-          <img
-            className="quy"
-            src={process.env.PUBLIC_URL + "/images/quy.jpg"}
-            alt="meey-land"
+        <div style={{ marginTop: "1.3rem" }}>
+          <div className="cacmuc">Hợp tác với Quỹ Đầu Tư từ Singapore</div>
+
+          <iframe
+            src="https://www.youtube.com/embed/sOmmIJEF4Wg"
+            allowFullScreen
+            className="video"
           />
-          <div className="click">
-            <a href="https://diendandoanhnghiep.vn/lo-dien-chan-dung-quy-dau-tu-ngoai-chuan-bi-rot-von-vao-meey-land-248450.html">
-              Đi tới bài báo
-            </a>
-          </div>
         </div>
         <p
           style={{

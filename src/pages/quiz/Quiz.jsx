@@ -218,8 +218,8 @@ const items = [
             Richard Moore Associates - tư vấn định vị thương hiệu cho Meey Land
           </li>
         </ul>
-        Ngoài ra, sắp tới sẽ có sự đồng hành từ Quỹ lớn từ Singapore vời dày dặn
-        kinh nghiệm và mối quan hệ. Việc IPO chỉ còn sớm muộn.
+        Ngoài ra, có sự đồng hành từ Quỹ lớn từ Singapore - Alamat Capital vời
+        dày dặn kinh nghiệm và mối quan hệ. Việc IPO chỉ còn sớm muộn.
       </div>
     ),
   },
