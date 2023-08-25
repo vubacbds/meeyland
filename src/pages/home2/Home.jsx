@@ -70,7 +70,7 @@ const Home = () => {
 
         <div style={{ marginTop: "0.6rem" }}>
           <iframe
-            src="https://www.youtube.com/embed/7gWuSxbVc04"
+            src="https://www.youtube.com/embed/vJhNG66jQiA"
             allowFullScreen
             className="video"
           />
