@@ -87,7 +87,7 @@ const items = [
     label: "Giá MEY hiện tại và số tiền tôi cần phải đầu tư ?",
     children: (
       <div>
-        Giá hiện tại 8,679đ /1MEY. Bạn có thể đầu tư với số vốn tối thiểu là
+        Giá hiện tại 8,879đ /1MEY. Bạn có thể đầu tư với số vốn tối thiểu là
         11,650,000đ
       </div>
     ),
